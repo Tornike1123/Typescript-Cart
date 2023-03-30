@@ -1,0 +1,31 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#e01010",
+        "list.activeSelectionForeground": "#f88400",
+        "list.inactiveSelectionForeground": "#00f8e3",
+        "list.highlightForeground": "#00f8e3",
+        "scrollbarSlider.activeBackground": "#00f8ec6e",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#ff0000",
+        "notificationLink.foreground": "#388E3C",
+        "editorWidget.resizeBorder": "#388E3C",
+        "editorWidget.border": "#388E3C",
+        "settings.modifiedItemIndicator": "#388E3C",
+        "settings.headerForeground": "#388E3C",
+        "panelTitle.activeBorder": "#388E3C",
+        "breadcrumb.activeSelectionForeground": "#388E3C",
+        "menu.selectionForeground": "#00f8e3",
+        "menubar.selectionForeground": "#00f8e3",
+        "editor.findMatchBorder": "#388E3C",
+        "selection.background": "#648e3840",
+        "statusBar.background": "#1b1b1b",
+        "statusBar.noFolderBackground": "#383232",
+        "statusBar.debuggingBackground": "#000000",
+        "activityBar.background": "#2E2D30",
+        "titleBar.activeBackground": "#403F43",
+        "titleBar.activeForeground": "#FAFAFA"
+    }
+}
