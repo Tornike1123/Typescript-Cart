@@ -13,3 +13,5 @@ Shopping Cart with React js and Typescript
 ## install Bootstrap
 
 `npm i bootstrap react-bootstrap`
+
+
