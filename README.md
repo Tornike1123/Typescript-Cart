@@ -1,6 +1,6 @@
 # Typescript-Cart
 
-Shopping Cart with React js and Typescript
+Shopping Cart with React js, Typescript, Context API and Bootstrap
 
 ## install Typscript-React starting Project
 
@@ -13,5 +13,3 @@ Shopping Cart with React js and Typescript
 ## install Bootstrap
 
 `npm i bootstrap react-bootstrap`
-
-

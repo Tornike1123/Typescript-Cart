@@ -9,7 +9,7 @@ interface StoreItemProps {
 }
 
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
-	const quantity = 1;
+	const quantity: number = 1;
 
 	return (
 		<Card className="h-100">
