@@ -1,4 +1,4 @@
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import { formatCurrency } from "../utilities/formatCurrency";
 
 interface StoreItemProps {
@@ -9,8 +9,10 @@ interface StoreItemProps {
 }
 
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+	const quantity = 1;
+
 	return (
-		<Card>
+		<Card className="h-100">
 			<Card.Img
 				variant="top"
 				src={imgUrl}
@@ -24,6 +26,31 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
 						{formatCurrency(price)}
 					</span>
 				</Card.Title>
+				<div className="mt-auto">
+					{quantity === 0 ? (
+						<Button className="w-100">+ Add to Cart</Button>
+					) : (
+						<div
+							className="d-flex align-items-center flex-column"
+							style={{ gap: ".5rem" }}
+						>
+							<div
+								className="d-flex align-items-center justify-content-center"
+								style={{ gap: ".5rem" }}
+							>
+								<Button>-</Button>
+								<div>
+									<span className="fs-3">{quantity}</span> in
+									cart
+								</div>
+								<Button>+</Button>
+							</div>
+							<Button variant="danger" size="sm">
+								Remove
+							</Button>
+						</div>
+					)}
+				</div>
 			</Card.Body>
 		</Card>
 	);
