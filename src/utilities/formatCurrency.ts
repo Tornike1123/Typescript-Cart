@@ -1,8 +1,8 @@
 const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined, {
-	currency: "EUR",
+	currency: "Eur",
 	style: "currency",
 });
 
-export function formatCurrency(number: number) {
+export const formatCurrency = (number: number) => {
 	return CURRENCY_FORMATTER.format(number);
-}
+};
